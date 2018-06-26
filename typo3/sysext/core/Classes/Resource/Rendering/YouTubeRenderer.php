@@ -115,7 +115,7 @@ class YouTubeRenderer implements FileRendererInterface
             $urlParams[] = 'autoplay=1';
         }
         if (!empty($options['muted'])) {
-            $urlParams[] = 'muted=1';
+            $urlParams[] = 'mute=1';
         }
         if (!empty($options['loop'])) {
             $urlParams[] = 'loop=1&amp;playlist=' . $videoId;
